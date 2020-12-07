@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- Bootstrap core CSS -->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="css/about.css" rel="stylesheet">
+</head>
+<body>
+    <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+          <button class="btn btn-primary" id="menu-toggle">Computer.inc</button>
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="site.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+  
+              
+            </ul>
+          </div>
+        </nav>
+<br>
+        <div class="about-section">
+            <h1>About Us Page</h1>
+            <marquee behavior="" direction="up"><p><b> Programming Languages</b>
+                Programming languages are the languages with which a programmer implements a piece of software to run on a computer. The earliest programming languages were assembly languages, not far removed from the binary-encoded instructions directly executed by the computer. By the mid-1950s, programmers began to use higher-level languages.
+                
+                Two of the first higher-level languages were FORTRAN (Formula Translator) and ALGOL (Algorithmic Language), which allowed programmers to write algebraic expressions and solve scientific computing problems. As learning to program became increasingly important in the 1960s, a stripped-down version of FORTRAN called BASIC (Beginner’s All-Purpose Symbolic Instruction Code) was developed at Dartmouth College. BASIC quickly spread to other academic institutions, and by 1980 versions of BASIC for personal computers allowed even students at elementary schools to learn the fundamentals of programming. Also, in the mid-1950s, COBOL (Common Business-Oriented Language) was developed to support business programming applications that involved managing information stored in records and files.
+                
+                The trend since then has been toward developing increasingly abstract languages, allowing the programmer to communicate with the machine at a level ever more remote from machine code. COBOL, FORTRAN, and their descendants (Pascal and C, for example) are known as imperative languages, since they specify as a sequence of explicit commands how the machine is to go about solving the problem at hand. These languages were also known as procedural languages, since they allowed programmers to develop and reuse procedures, subroutines, and functions to avoid reinventing basic tasks for every new application.
+                
+                Other high-level languages are called functional languages, in that a program is viewed as a collection of (mathematical) functions and its semantics are very precisely defined. The best-known functional language of this type is LISP (List Processing), which in the 1960s was the mainstay programming language for AI applications. Successors to LISP in the AI community include Scheme, Prolog, and C and C++ (see below). Scheme is similar to LISP except that it has a more formal mathematical definition. Prolog has been used largely for logic programming, and its applications include natural language understanding and expert systems such as MYCIN. Prolog is notably a so-called nonprocedural, or declarative, language in the sense that the programmer specifies what goals are to be accomplished but not how specific methods are to be applied to attain those goals. C and C++ have been used widely in robotics, an important application of AI research. An extension of logic programming is constraint logic programming, in which pattern matching is replaced by the more general operation of constraint satisfaction.
+                
+                Another important development in programming languages through the 1980s was the addition of support for data encapsulation, which gave rise to object-oriented languages. The original object-oriented language was called Smalltalk, in which all programs were represented as collections of objects communicating with each other via message-passing. An object is a set of data together with the methods (functions) that can transform that data. Encapsulation refers to the fact that an object’s data can be accessed only through these methods. Object-oriented programming has been very influential in computing. Languages for object-oriented programming include C++, Visual BASIC, and Java.
+                
+                Java is unusual because its applications are translated not into a particular machine language but into an intermediate language called Java Bytecode, which runs on the Java Virtual Machine (JVM). Programs on the JVM can be executed on most contemporary computer platforms, including Intel-based systems, Apple Macintoshes, and various Android-based smartphones and tablets. Thus, Linux, iOS, Windows, and other operating systems can run Java programs, which makes Java ideal for creating distributed and Web-based applications. Residing on Web-based servers, Java programs may be downloaded and run in any standard Web browser to provide access to various services, such as a client interface to a game or entry to a database residing on a server.
+                
+                At a still higher level of abstraction lie declarative and scripting languages, which are strictly interpreted languages and often drive applications running in Web browsers and mobile devices. Some declarative languages allow programmers to conveniently access and retrieve information from a database using “queries,” which are declarations of what to do (rather than how to do it). A widely used database query language is SQL (Structured Query Language) and its variants (e.g., MySQL and SQLite). Associated with these declarative languages are those that describe the layout of a Web page on the user’s screen. For example, HTML (HyperText Markup Language) supports the design of Web pages by specifying their structure and content. Gluing the Web page together with the database is the task of a scripting language (e.g., PHP), which is a vehicle for programmers to integrate declarative statements of HTML and MySQL with imperative actions that are required to effect an interaction between the user and the database. An example is an online book order with Amazon.com, where the user queries the database to find out what books are available and then initiates an order by pressing buttons and filling appropriate text areas with his or her ordering information. The software that underlies this activity includes HTML to describe the content of the Web page, MySQL to access the database according to the user’s requests, and PHP to control the overall flow of the transaction.
+                
+                Computer programs written in any language other than machine language must be either interpreted or translated into machine language (“compiled”). As suggested above, an interpreter is software that examines a computer program one instruction at a time and calls on code to execute the machine operations required by that instruction.
+                
+                A compiler is software that translates an entire computer program into machine code that is saved for subsequent execution whenever desired. Much work has been done on making both the compilation process and the compiled code as efficient as possible. When a new language is developed, it is usually interpreted at first. If it later becomes popular, a compiler is developed for it, since compilation is more efficient than interpretation.
+                
+                There is an intermediate approach, which is to compile code not into machine language but into an intermediate language (called a virtual machine) that is close enough to machine language that it is efficient to interpret, though not so close that it is tied to the machine language of a particular computer. It is this approach that provides the Java language with its computer platform independence via the JVM.</p></marquee>
+          </div>
+          
+          
+</body>
+</html>
